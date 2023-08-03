@@ -40,7 +40,7 @@ t.add_resource(Role(
     ),
     Path="/",
     ManagedPolicyArns=[
-        'arn:aws:iam::aws:policy/AWSCodePipelineReadOnlyAccess',
+        'arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess',
         'arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess',
         'arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPowerUser',
         'arn:aws:iam::aws:policy/AmazonS3FullAccess',
